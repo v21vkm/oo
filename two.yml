@@ -3,8 +3,8 @@ kind: Pod
 metadata:
   name: ngkpod_gh
 spec:
- containers:
+  containers:
    - name: wasinginx
      image: nginx 
-  ports:
-  - containerPort: 80
+     ports:
+     - containerPort: 80
