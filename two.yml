@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: ngkpod
+  name: ngkpod_gh
 spec:
  containers:
    - name: wasinginx
