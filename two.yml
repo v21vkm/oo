@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ngkpod
+spec:
+ containers:
+   - name: wasinginx
+     image: nginx 
+  ports:
+  - containerPort: 80
